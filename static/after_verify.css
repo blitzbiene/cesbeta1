@@ -1,0 +1,19 @@
+.result{
+   margin: 20px 20%;
+   background-color: #dedede;
+   text-align: center;
+
+
+
+}
+.result h2{
+     font-size: 150%;
+
+
+}
+.result p{
+  margin: 2px 20%;
+}
+.fraud{
+    font-size: 3rem;
+}

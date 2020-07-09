@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='bootstrap.css')}}">
+      <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='fonts/css/all.min.css')}}">
+      <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='fonts/css/font-awesome.css')}}">
+      <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='font-awesome.min.css')}}">
+      <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style2.css')}}">
+      <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style.css')}}">
+      <link rel="icon" href="{{url_for('static',filename='images/CESlogo.png')}}">
+
+
+
+      <title>CES</title>
+    </head>
+    <body>
+      <!--  start header code  includes navbar excludes search bar-->
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html"><img src="{{url_for('static',filename='images/CESlogo.png')}}" width="50" height="50" alt="" loading="lazy"> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item"><a class="nav-link" href="{{url_for('index')}}">Home </a></li>
+          <li class="nav-item"><a class="nav-link" href="{{url_for('about_us')}}">About Us</a></li>
+          <li class="nav-item active"><a class="nav-link" href="{{url_for('executives')}}">Executive Committee</a></li>
+          <li class="nav-item"><a class="nav-link" href="{{url_for('vidhaan')}}">Vidhaan</a></li>
+          <li class="nav-item"><a class="nav-link" href="{{url_for('verify')}}">Certificates</a></li>
+          </ul>
+      </div>
+        </nav>
+      </header>
+       <!--  end header code  includes navbar excludes search bar-->
+
+       <!-- meet the team-->
+       <section>
+     		<div class="container5">
+     			<h1 class="heading"> Meet the Team</h1>
+     			<div class="card-wrapper">
+     				<div class="card">
+     					<img src="{{url_for('static',filename='images/6530.jpg')}}" class="card-img">
+     					<img src="{{url_for('static',filename='images/abhi2.jpg')}}" class="profile-img">
+     					<h1>Abhishek Verma</h1>
+     					<p class="job-title"><i class="fab fa-teamspeak mr-2"></i>President</p>
+
+
+     					<ul class="social-media">
+     					<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+     					<li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+     					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+     					<li><a href="#"><i class="fas fa-envelope-open-text"></i></a></li>
+     					</ul>
+     				</div>
+
+     				<div class="card">
+     					<img src="{{url_for('static',filename='images/6530.jpg')}}" class="card-img">
+     					<img src="{{url_for('static',filename='images/kk.JPG')}}" class="profile-img">
+     					<h1>Krishna Kant</h1>
+     					<p class="job-title">General Secretary</p>
+
+
+     					<ul class="social-media">
+     					<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+     					<li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+     					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+     					<li><a href="#"><i class="fas fa-envelope-open-text"></i></a></li>
+     					</ul>
+     				</div>
+     				<div class="card">
+     					<img src="{{url_for('static',filename='images/6530.jpg')}}" class="card-img">
+     					<img src="{{url_for('static',filename='images/amit.jpg')}}" class="profile-img">
+     					<h1>Amit Ranjan</h1>
+     					<p class="job-title">Joint Secretary</p>
+
+
+     					<ul class="social-media">
+     					<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+     					<li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+     					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+     					<li><a href="#"><i class="fas fa-envelope-open-text"></i></a></li>
+     					</ul>
+     				</div>
+
+     				<div class="card">
+     					<img src="{{url_for('static',filename='images/6530.jpg')}}" class="card-img">
+     					<img src="{{url_for('static',filename='images/gaurav.jpg')}}" class="profile-img">
+     					<h1>Gaurav Tripathi</h1>
+     					<p class="job-title">Treasurer</p>
+
+
+     					<ul class="social-media">
+     					<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+     					<li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+     					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+     					<li><a href="#"><i class="fas fa-envelope-open-text"></i></a></li>
+     					</ul>
+     				</div>
+     			</div>
+     		</div>
+
+
+
+       </section>
+       <!-- end meet the team-->
+
+
+
+       <!--footer-->
+
+           <div class="footer">
+                 <footer class="page-footer font-small mdb-color pt-4">
+                   <div class="container text-center text-md-left">
+
+                     <!-- Footer links -->
+                     <div class="row text-center text-md-left mt-3 pb-3">
+
+                       <!-- Grid column -->
+                       <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                         <h6 class="text-uppercase mb-4 font-weight-bold">CES NIT JAMSHEDPUR</h6>
+                         <p><img src="{{url_for('static',filename='images/CESlogo.png')}}" height="150px" width="150px"/></p>
+                       </div>
+                       <!-- Grid column -->
+
+                       <hr class="w-100 clearfix d-md-none">
+
+
+
+
+                       <hr class="w-100 clearfix d-md-none">
+
+                       <!-- Grid column -->
+                       <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                         <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+                         <p>
+                           <a href="{{url_for('about_us')}}" class="useful-links">About Us</a>
+                         </p>
+                         <p>
+                           <a href="{{url_for('executives')}}" class="useful-links">Executive Committee</a>
+                         </p>
+                         <p>
+                           <a href="{{url_for('vidhaan')}}" class="useful-links">Vidhaan</a>
+                         </p>
+                       </div>
+
+                       <!-- Grid column -->
+                       <hr class="w-100 clearfix d-md-none">
+
+                       <!-- Grid column -->
+                       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                         <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                         <p>
+                           <i class="fas fa-home mr-3"></i> NIT Jamshedpur, 831014</p>
+                         <p>
+                           <i class="fas fa-envelope mr-3"></i> ces@nitjsr.ac.in</p>
+                      <p>
+                           <i class="fas fa-envelope-open-text mr-3"></i><a href="mailto: president.ces@nitjsr.ac.in" class="bad-link"> president.ces@nitjsr.ac.in </a></p>
+                         <p>
+                           <i class="fas fa-phone mr-3"></i> +919314092297</p>
+
+                       </div>
+                       <!-- Grid column -->
+
+                     </div>
+                     <!-- Footer links -->
+
+                     <hr>
+
+                     <!-- Grid row -->
+                     <div class="row d-flex align-items-center">
+
+                       <!-- Grid column -->
+                       <div class="col-md-7 col-lg-8">
+
+                         <!--Copyright-->
+                         <p class="text-center text-md-left">© 2020 Copyright:
+                           <a href="https://cesnitjsr.co.in/" class="bad-link">
+                             <strong> Civil Engineering Society</strong>
+                           </a>
+                      <p class="text-center text-md-left"> Designed By:
+                           <a href="#" class="bad-link">
+                             <strong> CES webTeam</strong>
+                           </a>
+                        </p>
+                         </p>
+
+                       </div>
+                       <!-- Grid column -->
+
+                       <!-- Grid column -->
+                       <div class="col-md-5 col-lg-4 ml-lg-0">
+
+                         <!-- Social buttons -->
+                    <p class="text-center text-md-right">
+                           <a>
+                             <strong> Follow Us</strong>
+                           </a>
+                         </p>
+                         <div class="text-center text-md-right">
+                           <ul class="list-unstyled list-inline">
+                             <li class="list-inline-item">
+                               <a class="btn-floating btn-sm rgba-white-slight mx-1" href="https://www.fb.com/CESnitjsr" target="_blank">
+                                 <i class="fab fa-facebook-f"></i>
+                               </a>
+                             </li>
+                             <li class="list-inline-item">
+                               <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                 <i class="fab fa-twitter"></i>
+                               </a>
+                             </li>
+                             <li class="list-inline-item">
+                               <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                 <i class="fab fa-google-plus-g"></i>
+                               </a>
+                             </li>
+                             <li class="list-inline-item">
+                               <a class="btn-floating btn-sm rgba-white-slight mx-1">
+                                 <i class="fab fa-linkedin-in"></i>
+                               </a>
+                             </li>
+                           </ul>
+                         </div>
+
+                       </div>
+                       <!-- Grid column -->
+
+                     </div>
+                     <!-- Grid row -->
+
+                   </div>
+                   <!-- Footer Links -->
+
+                 </footer>
+                 <!-- Footer -->
+
+
+           </div>
+
+       <!-- footer ends-->
+
+
+    </body>
+</html>

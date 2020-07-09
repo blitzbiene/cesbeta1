@@ -1,0 +1,53 @@
+*,
+*:after,
+*:before{
+  margin:0;
+  padding:0;
+  box-sizing: inherit;
+}
+html{
+   font-size: 62.5%;
+}
+body{
+    font-family: 'Lato',sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    box-sizing: border-box;
+}
+.try{
+
+  margin: 0 4rem;
+  text-align: center;
+  font-weight: 100;
+  font-size: 150%;
+}
+.try:after{
+  display: block;
+  content:"";
+  border-bottom: 2px solid #777;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/******form-part******************/
+.section-form{
+  margin: 0 4rem;
+  position: relative;
+}
+.data-box{
+  position: absolute;
+  top: 30%;
+  left:40%;
+  margin-top: 10rem;
+
+}
+.form-id{
+  display: inline-block;
+}
+.verify{
+  display:inline-block;
+  margin:1rem 9rem;
+}
+.label-id{
+  font-size: 200%;
+}

@@ -1,0 +1,109 @@
+.image-container {
+  background-image: url("images/6530.jpg"); /* The image used - important! */
+  background-size: cover;
+  position: relative; /* Needed to position the cutout text in the middle of the image */
+  height: 300px; /* Some height */
+}
+
+.text {
+  background-color: white;
+  color: black;
+  font-size: 10vw; /* Responsive font size */
+  font-weight: bold;
+  margin: 0 auto; /* Center the text container */
+  padding: 0px;
+  width: 60%;
+  text-align: center; /* Center text */
+  position: absolute; /* Position text */
+  top: 50%; /* Position text in the middle */
+  left: 50%; /* Position text in the middle */
+  transform: translate(-50%, -50%); /* Position text in the middle */
+  mix-blend-mode: screen; /* This makes the cutout text possible */
+}
+/* Style the header */
+.center{
+	top: 50%;
+	text-align: center; /* Center text */
+
+}
+
+
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+.vidlogo{
+	float: right;
+}
+.ceslogo{
+
+}
+.exe6{
+	width: 1300px;
+	margin-top: 25px;
+	margin-left: 40px;
+}
+.footer{
+	margin-top: 50px;
+	background-color: #F7F7F7;
+	width: 100%;
+  padding:10px;
+}
+.footer2{
+	margin-top: 50px;
+	background-color: #989898;
+	width: 100%;
+  padding:10px;
+}
+
+.container{
+	margin-top: 10px;
+}
+
+.image-container2 {
+  background-image: url("images/3556.jpg"); /* The image used - important! */
+  background-size: cover;
+  position: relative; /* Needed to position the cutout text in the middle of the image */
+  height: 200px; /* Some height */
+}
+.text2 {
+  background-color: white;
+  color: black;
+  font-size: 5vw; /* Responsive font size */
+  font-weight: bold;
+  margin: 0 auto; /* Center the text container */
+  padding: 0px;
+  width: 65%;
+  text-align: center; /* Center text */
+  position: absolute; /* Position text */
+  top: 50%; /* Position text in the middle */
+  left: 50%; /* Position text in the middle */
+  transform: translate(-50%, -50%); /* Position text in the middle */
+  mix-blend-mode: screen; /* This makes the cutout text possible */
+}
+
+.useful-links{
+	color: #007bff;
+  font-size: 100%;
+}
+a{
+  font-size: 100%;
+}
